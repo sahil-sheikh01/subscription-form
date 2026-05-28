@@ -4,7 +4,7 @@ const msg = document.getElementById('msg');
 
 form.addEventListener('submit', function(e) {
     e.preventDefault();
-    msg.innerHTML = "Subscribing...";
+    msg.innerHTML = "Just a moment...";
 
     fetch(scriptURL, {
         method: 'POST', 
